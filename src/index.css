@@ -1,0 +1,18 @@
+:root {
+    --color-borgona: #7b1d1d;
+    --color-dorado: #c9952a;
+    --color-oscuro: #222222;
+    --color-gris-claro: #f9f9f9;
+    --color-borde: #e0e0e0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

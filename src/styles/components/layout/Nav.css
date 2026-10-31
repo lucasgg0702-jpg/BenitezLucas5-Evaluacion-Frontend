@@ -1,0 +1,38 @@
+nav {
+    background-color: var(--color-oscuro);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav li a:hover,
+nav li a.activo {
+    background-color: var(--color-dorado);
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li a {
+        text-align: center;
+        padding: 12px 15px;
+        border-bottom: 1px solid #333;
+    }
+}
